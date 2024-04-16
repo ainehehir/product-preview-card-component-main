@@ -128,10 +128,10 @@
   }
 
   .button[data-icon="shopping-cart"]::before{
-    content: "";
+    content: " ";
     background-image: url("images/icon-cart.svg");
     width:15px;
-    height:16px'
+    height:16px;
   }
 
   button:is(:hover, :focus-visible){
